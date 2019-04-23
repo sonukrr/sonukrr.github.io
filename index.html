@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
@@ -23,9 +24,9 @@
         <div id="mobile-menu-close">
             <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
-        <ul id="menu" class="shadow">
+        <ul id="menu" class="navbar">
             <li>
-                <a href="#about">About</a>
+                <a href="#about">Objective</a>
             </li>
             <li>
                 <a href="#experience">Experience</a>
@@ -71,7 +72,7 @@
                 <div class="col-md-4">
                     <h2 class="heading">Objective</h2>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 objective">
                     <p>
 
                         "To work in a dynamic and challenging area where I can make use of my adaptive and analytical
@@ -87,7 +88,7 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="September 2018 – currently working">
+            <div class="objective" data-date="September 2018 – currently working">
                 <h3><img src="images/cognizant.png">| Cognizant Technology Solutions Pvt Ltd</h3>
                 <h4>Programmer Analyst Trainee</h4>
                 <p>
@@ -103,7 +104,8 @@
     <div id="education">
         <h2 class="heading">Education</h2>
         <div class="education-block">
-            <h3><img style="padding-right: 5px; margin-right:4px; border-right:2px solid #74808a" src="images/imsec.png">  IMS Engineering College,Ghaziabad(Under Graduation)</h3>
+            <h3><img style="padding-right: 5px; margin-right:4px; border-right:2px solid #74808a"
+                    src="images/imsec.png"> IMS Engineering College,Ghaziabad(Under Graduation)</h3>
             <span class="education-date">2014 - 2018</span>
             <h4>B.Tech(Hons.) in Electronics and Communication Engineering</h4>
             <p>
@@ -128,7 +130,8 @@
         <!-- End .education-block -->
 
         <div class="education-block">
-            <h3><img style="padding-right: 5px; margin-right:4px; border-right:2px solid #74808a" src="images/kvsv.png">   Kendriya Vidyalaya Sainik Vihar,New Delhi(Intermediate)</h3>
+            <h3><img style="padding-right: 5px; margin-right:4px; border-right:2px solid #74808a" src="images/kvsv.png">
+                Kendriya Vidyalaya Sainik Vihar,New Delhi(Intermediate)</h3>
             <span class="education-date">2013 - 2014</span>
             <h4>PCM with Computer Science(CBSE)</h4>
             <p>
@@ -137,7 +140,8 @@
         </div>
 
         <div class="education-block">
-            <h3><img style="padding-right: 10px; padding-left:4px; margin-right:4px; border-right:2px solid #74808a" src="images/aps.png">  Army School Narangi Guwahati,Assam(Matriculation)</h3>
+            <h3><img style="padding-right: 10px; padding-left:4px; margin-right:4px; border-right:2px solid #74808a"
+                    src="images/aps.png"> Army School Narangi Guwahati,Assam(Matriculation)</h3>
             <span class="education-date">2011 - 2012</span>
             <h4>Class 10(CBSE)</h4>
             <p>
@@ -152,7 +156,7 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
-                <div class="project shadow-large">
+                <div class="project shadow-large objective">
                     <div class="project-image">
                         <img src="images/project1.png" />
                     </div>
@@ -173,7 +177,7 @@
                 </div>
                 <!-- End .project -->
 
-                <div class="project shadow-large">
+                <div class="project shadow-large objective">
                     <div class="project-image">
                         <img src="images/project2.png" />
                     </div>
@@ -192,7 +196,7 @@
                 </div>
                 <!-- End .project -->
 
-                <div class="project shadow-large">
+                <div class="project shadow-large objective">
                     <div class="project-image">
                         <img src="images/project3.png" />
                     </div>
@@ -212,7 +216,7 @@
                 </div>
                 <!-- End .project -->
 
-                <div class="project shadow-large">
+                <div class="project shadow-large objective">
                     <div class="project-image">
                         <img src="images/project4.png" />
                     </div>
@@ -240,24 +244,26 @@
     <!-- End #projects -->
 
     <div id="skills">
+
+
         <h2 class="heading">Skills</h2>
         <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JAVASCRIPT</li>
-            <li>ANGULAR 7</li>
-            <li>ANGULAR MATERIAL</li>
-            <li>BOOTSTRAP v4</li>
-            <li>MYSQL</li>
-            <li>Spring Boot</li>
-            <li>Spring MVC</li>
-            <li>JUNIT</li>
-            <li>MOCKITO</li>
-            <li>JASMINE KARMA</li>
-            <li>PROTRACTOR</li>
-            <li>GIT</li>
-            <li>DOCKER</li>
-     
+            <li class="skill">HTML5</li>
+            <li class="skill">CSS3</li>
+            <li class="skill">JAVASCRIPT</li>
+            <li class="skill">ANGULAR 7</li>
+            <li class="skill">ANGULAR MATERIAL</li>
+            <li class="skill">BOOTSTRAP v4</li>
+            <li class="skill">MYSQL</li>
+            <li class="skill">Spring Boot</li>
+            <li class="skill">Spring MVC</li>
+            <li class="skill">JUNIT</li>
+            <li class="skill">MOCKITO</li>
+            <li class="skill">JASMINE KARMA</li>
+            <li class="skill">PROTRACTOR</li>
+            <li class="skill">GIT</li>
+            <li class="skill">DOCKER</li>
+
         </ul>
     </div>
     <!-- End #skills -->
@@ -281,8 +287,12 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
+                        <i class="fa fa-phone" aria-hidden="true"></i> +91-8860757998
+                    </p>
+                    <p>
                         Copyright &copy; 2019 SONU KUMAR
                     </p>
+
                 </div>
                 <div class="col-sm-2 top">
                     <span id="to-top">
@@ -296,8 +306,8 @@
                                     aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/users/11329516/sonu-kumar" target="_blank"><i class="fa fa-stack-overflow"
-                                    aria-hidden="true"></i></a>
+                            <a href="https://stackoverflow.com/users/11329516/sonu-kumar" target="_blank"><i
+                                    class="fa fa-stack-overflow" aria-hidden="true"></i></a>
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/in/sonukrr01/" target="_blank"><i class="fa fa-linkedin"
@@ -307,7 +317,7 @@
                             <a href="https://www.facebook.com/sonukumar130" target="_blank"><i class="fa fa-facebook"
                                     aria-hidden="true"></i></a>
                         </li>
-                      
+
                     </ul>
                 </div>
             </div>
@@ -317,6 +327,37 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.navbar', {
+            duration: 2000,
+            origin: 'top'
+        });
+
+        sr.reveal('.heading', {
+            duration: 1000,
+            origin: 'left',
+            distance: '300px',
+            viewFactor: 0.2
+        });
+        sr.reveal('.objective', {
+            duration: 2000,
+            origin: 'right',
+            distance: '300px',
+            viewFactor: 0.2
+        });
+        sr.reveal('.education-block', {
+            duration: 2000,
+            origin: 'bottom'
+        });
+        sr.reveal('.skill', {
+            duration: 2000,
+            origin: 'left',
+            distance: '300px',
+            viewFactor: 0.8
+        });
+
+    </script>
 </body>
 
 </html>
